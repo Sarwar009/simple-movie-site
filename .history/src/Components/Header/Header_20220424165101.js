@@ -8,7 +8,7 @@ const Header = () => {
         <div className='header-container'>
           <h3>Movie Lovers</h3>
           <form>
-            <input type='text' name='movieSearch' className='search-box' placeholder='Search...'></input>
+            <input type='text' name='movieSearch' className='search-box' placeholder='Search'></input>
             <button type='submit' className='btn'>Search</button>
           </form>
         </div>
