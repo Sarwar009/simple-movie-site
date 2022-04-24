@@ -1,0 +1,17 @@
+.header {
+    width: 100vw;
+    
+
+    .header-container {
+        padding-left: 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--color-bg-variant);
+
+        input[type=text] {
+            width: 80%;
+        }
+    }
+}
