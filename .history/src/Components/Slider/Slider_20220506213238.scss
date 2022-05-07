@@ -1,0 +1,30 @@
+.slider-container {
+    width: 100%;
+
+    .swiper-container {
+        width: 60%;
+    }
+
+    .slider {
+        text-align: center;
+        height: ;
+        padding: 15px;
+        user-select: none;
+        margin-bottom: 25px;
+
+        .slider-img {
+            width: 90%;
+            height: 60%;
+            overflow: hidden;
+            margin: 0 auto;
+            
+        }
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+        
+        background-color: skyblue;
+    }
+    
+}

@@ -1,0 +1,42 @@
+.movie-listing-container {
+
+    margin-top: 20px;
+
+.letest-movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    .movies-container {
+        // margin: 0 auto;
+        padding: 15px;
+        width: 260px;
+        cursor: pointer;
+        
+    
+        img {
+            object-fit: cover;
+            height: 300px;
+        }
+    }
+}
+
+.see-more {
+    width: 100%;
+    text-align: center;
+
+    .btn {
+        &:hover {
+            background-color: var(--color-primary);
+        }
+    }
+}
+
+h3 {
+    color: var(--color-bg-variant);
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+}

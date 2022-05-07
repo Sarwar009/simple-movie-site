@@ -1,1 +1,41 @@
-/* No CSS *//*# sourceMappingURL=MovisList.css.map */
+.letestMoviesWrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.letestMoviesWrapper .see-more {
+  width: 100%;
+  text-align: center;
+}
+
+.letestMoviesWrapper .see-more .btn:hover {
+  background-color: var(--color-primary);
+}
+
+.letestMoviesWrapper h3 {
+  color: var(--color-bg-variant);
+  background-color: var(--color-primary);
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.letest-movies {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.letest-movies .movies-container {
+  padding: 15px;
+  width: 260px;
+  cursor: pointer;
+}
+
+.letest-movies .movies-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+/*# sourceMappingURL=MovisList.css.map */

@@ -1,0 +1,16 @@
+.letest-movies {
+    display: flex;
+    padding: 10px;
+    
+    .movies-container {
+        
+        
+        width: 280px;
+        cursor: pointer;
+    
+        .movies-img {
+            object-fit: cover;
+            height: 362px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.letest-movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    .movies-container {
+        // margin: 0 auto;
+        padding: 20px;
+        width: 280px;
+        cursor: pointer;
+        
+    
+        .movies-img {
+            object-fit: cover;
+            height: 362px;
+        }
+    }
+}

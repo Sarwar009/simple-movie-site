@@ -1,0 +1,13 @@
+.letest-movies {
+    .movies-container {
+        
+        padding: 10px;
+        width: 280px;
+        cursor: pointer;
+    
+        .movies-img {
+            object-fit: cover;
+            height: 362px;
+        }
+    }
+}

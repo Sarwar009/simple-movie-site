@@ -1,0 +1,20 @@
+.slider-container {
+    width: 100%;
+
+    .swiper-container {
+        width: 60%;
+    }
+
+    .slider {
+        text-align: center;
+        user-select: none;
+
+        .slider-img {
+            overflow: hidden;
+            margin: 0 auto;
+            
+        }
+    }
+
+    
+}
