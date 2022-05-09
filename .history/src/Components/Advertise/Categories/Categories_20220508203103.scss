@@ -1,0 +1,21 @@
+.categories-container {
+    margin-top: 25px;
+
+    h3 {
+        border-bottom: 1px solid var(--color-bg-variant);
+        padding-bottom: 5px;
+        text-align: center;
+        color: burlywood;
+    }
+
+    .categories-title {
+        color: burlywood;
+        display: grid;
+        padding: 10px;
+        border-bottom: 1px solid var(--color-bg-variant);
+
+        &:hover {
+            color: ;
+        }
+    }
+}

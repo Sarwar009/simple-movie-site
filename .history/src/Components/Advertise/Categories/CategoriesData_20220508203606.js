@@ -1,0 +1,92 @@
+export const CategoriesData = [
+    {
+        'id': 1,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 2,
+        'title': 'S',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 3,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 4,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 5,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 6,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 8,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 9,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 10,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 11,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 12,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 13,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 14,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 15,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 16,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 18,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 19,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+    {
+        'id': 20,
+        'title': 'Oscar Winning Movies',
+        'link': 'https://mlwbd.host/genre/oscar-winning-movies/'
+    },
+]

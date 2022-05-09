@@ -1,41 +1,82 @@
+.movie-listing-container {
+  border-right: 1px solid var(--color-bg-variant);
+}
+
 .letestMoviesWrapper {
   margin-top: 20px;
   margin-bottom: 30px;
+  border-bottom: 1px solid var(--color-bg-variant);
 }
 
 .letestMoviesWrapper .see-more {
   width: 100%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.letestMoviesWrapper .see-more .see-more.btn {
+  margin-right: 30px;
+}
+
+.letestMoviesWrapper .see-more .btn {
+  background-color: var(--color-primary);
+  margin: 5px;
 }
 
 .letestMoviesWrapper .see-more .btn:hover {
-  background-color: var(--color-primary);
+  color: var(--color-bg);
+  background-color: white;
 }
 
 .letestMoviesWrapper h3 {
-  color: var(--color-bg-variant);
-  background-color: var(--color-primary);
-  text-align: center;
-  padding: 20px;
+  color: var(--color-primary);
   font-size: 20px;
+  margin: 13px;
+  margin-left: 30px;
+}
+
+.letestMoviesWrapper h3 .span {
+  border-left: 4px solid skyblue;
+  padding-right: 10px;
+}
+
+.letestMoviesWrapper .movies-name-release {
+  width: 100%;
+}
+
+.letestMoviesWrapper h4 {
+  width: 180px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .letest-movies {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .letest-movies .movies-container {
   padding: 15px;
-  width: 260px;
   cursor: pointer;
 }
 
 .letest-movies .movies-container img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 300px;
+  width: 100%;
+}
+
+.movies-img {
+  width: 180px;
 }
 /*# sourceMappingURL=MovisList.css.map */

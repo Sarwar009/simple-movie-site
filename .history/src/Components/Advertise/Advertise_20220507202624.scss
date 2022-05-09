@@ -1,0 +1,20 @@
+.advertise-container {
+    padding: 20px;
+
+    .advertise-items {
+        display: flex;
+
+        .advertise-img {
+            width: 80px;
+        
+            img {
+                width: 100%;
+            }
+        }
+
+        .advertise-content {
+            padding: 20px;
+        }
+    }
+}
+

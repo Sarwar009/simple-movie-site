@@ -1,0 +1,9 @@
+.main-body-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: var();
+
+    .movielisting-area {
+        width: 70%;
+    }
+}

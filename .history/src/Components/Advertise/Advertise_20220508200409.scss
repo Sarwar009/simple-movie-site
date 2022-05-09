@@ -1,0 +1,55 @@
+.advertise-container {
+    margin: 20px 0 20px 20px;
+
+    .main-title {
+        text-align: center;
+        color: burlywood;
+        margin: 28px 0;
+        cursor: pointer;
+    }
+
+    .child-title {
+        color: burlywood;
+        margin-bottom: 15px;
+        border-bottom: 1px solid var(--color-bg-variant);
+        padding-bottom: 5px;
+    }
+
+    .advertise-items {
+        color: burlywood;
+        display: flex;
+        cursor: pointer;
+        padding-top: 10px;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+
+        .advertise-img {
+            width: 80px;
+        
+            img {
+                width: 100%;
+            }
+        }
+
+        .advertise-content {
+            margin: 15px;
+
+            .movie-title {
+                
+                font-size: 13px;
+            }
+
+            .relesead-date {
+                font-size: 12px;
+            }
+
+            .rating {
+                font-size: 15px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+

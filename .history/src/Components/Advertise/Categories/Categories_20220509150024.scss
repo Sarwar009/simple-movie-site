@@ -1,0 +1,35 @@
+.categories-container {
+    margin-top: 25px;
+
+    h3 {
+        border-bottom: 1px solid var(--color-bg-variant);
+        padding-bottom: 5px;
+        text-align: center;
+        color: burlywood;
+    }
+
+    .categories-list {
+        width: 100%;
+        display: grid;
+        border-bottom: 1px solid var(--color-bg-variant);
+    }
+
+    .categories-title {
+        width: 90%;
+        color: burlywood;
+        font-size: 12px;
+        padding: 10px;
+        transition: var(--transition);
+
+        
+            line-height: 20px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+
+        &:hover {
+            color: var(--color-primary-variant);
+        }
+    }
+
+}

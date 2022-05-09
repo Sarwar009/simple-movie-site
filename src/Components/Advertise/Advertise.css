@@ -1,0 +1,57 @@
+.advertise-container {
+  margin: 20px 0 20px 20px;
+}
+
+.advertise-container .main-title {
+  text-align: center;
+  color: burlywood;
+  margin: 28px 0;
+  cursor: pointer;
+}
+
+.advertise-container .child-title {
+  color: burlywood;
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--color-bg-variant);
+  padding-bottom: 5px;
+}
+
+.advertise-container .advertise-items {
+  color: burlywood;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--color-bg-variant);
+}
+
+.advertise-container .advertise-items:hover {
+  color: var(--color-primary);
+}
+
+.advertise-container .advertise-items .advertise-img {
+  width: 80px;
+}
+
+.advertise-container .advertise-items .advertise-img img {
+  width: 100%;
+}
+
+.advertise-container .advertise-items .advertise-content {
+  margin: 15px;
+}
+
+.advertise-container .advertise-items .advertise-content .movie-title {
+  font-size: 13px;
+}
+
+.advertise-container .advertise-items .advertise-content .relesead-date {
+  font-size: 12px;
+}
+
+.advertise-container .advertise-items .advertise-content .rating {
+  font-size: 15px;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=Advertise.css.map */

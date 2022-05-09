@@ -1,0 +1,22 @@
+.nav-container {
+    margin-top: 5px;
+
+    .nav-ul {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 0px 10px;
+        color: rgba(219, 207, 207, 0.74);
+    }
+
+    .nav-icon {
+        font-size: 10px;
+    }
+
+    .dropdown-menu {
+        display: flex;
+        padding: 10px 10px;
+        color: rgba(219, 207, 207, 0.74);
+    }
+}

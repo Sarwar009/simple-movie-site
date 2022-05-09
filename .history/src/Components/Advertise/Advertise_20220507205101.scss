@@ -1,0 +1,50 @@
+.advertise-container {
+    margin: 20px 0 20px 20px;
+
+    .main-title {
+        text-align: center;
+        color: burlywood;
+        margin: 20px 0;
+        cursor: pointer;
+    }
+
+    .child-title {
+        color: burlywood;
+        margin-bottom: 10px;
+    }
+
+    .advertise-items {
+        display: flex;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-primary);
+        }
+
+        .advertise-img {
+            width: 80px;
+        
+            img {
+                width: 100%;
+            }
+        }
+
+        .advertise-content {
+            margin: 15px;
+
+            .movie-title {
+                color: burlywood;
+                font-size: 13px;
+            }
+
+            .realesed-date {
+                font-size: 12px;
+            }
+
+            .rating {
+                font-size: 15px;
+            }
+        }
+    }
+}
+

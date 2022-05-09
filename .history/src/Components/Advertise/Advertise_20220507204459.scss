@@ -1,0 +1,57 @@
+.advertise-container {
+    padding: 20px 0 20px 20px;
+
+    .main-title {
+        text-align: center;
+        color: burlywood;
+        padding: 20px 0;
+    }
+
+    .child-title {
+        color: burlywood;
+        margin-bottom: 10px;
+    }
+
+    .advertise-items {
+        display: flex;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+
+            .advertise-img {
+                width: 81px;
+            
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .advertise-img {
+            width: 80px;
+        
+            img {
+                width: 100%;
+            }
+        }
+
+        .advertise-content {
+            padding: 15px;
+
+            .movie-title {
+                color: burlywood;
+                font-size: 13px;
+            }
+
+            .realesed-date {
+                font-size: 12px;
+            }
+
+            .rating {
+                font-size: 15px;
+            }
+        }
+    }
+}
+

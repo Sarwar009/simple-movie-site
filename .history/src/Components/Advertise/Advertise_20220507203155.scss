@@ -1,0 +1,31 @@
+.advertise-container {
+    padding: 20px;
+
+    .main-title {
+        text-align: center;
+        color: burlywood;
+        padding: 20px 0;
+    }
+
+    .child-title {
+        color: burlywood;
+        padding: 10px;
+    }
+
+    .advertise-items {
+        display: flex;
+
+        .advertise-img {
+            width: 80px;
+        
+            img {
+                width: 100%;
+            }
+        }
+
+        .advertise-content {
+            padding: 20px;
+        }
+    }
+}
+

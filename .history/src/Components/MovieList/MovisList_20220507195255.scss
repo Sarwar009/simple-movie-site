@@ -1,0 +1,47 @@
+.letestMoviesWrapper {
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        .see-more {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            fd
+            background-color: var(--color-bg-variant);
+        
+            .btn {
+                background-color: var(--color-primary);
+                &:hover {
+                    color: var(--color-bg);
+                    background-color: white;
+                }
+            }
+        }
+        
+        h3 {
+            color: var(--color-primary);
+            padding: 8px;
+            font-size: 20px;
+        }
+    }
+
+.letest-movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    .movies-container {
+        // margin: 0 auto;
+        padding: 15px;
+        width: 260px;
+        cursor: pointer;
+        
+    
+        img {
+            object-fit: cover;
+            height: 300px;
+        }
+    }
+}
+
+
+
