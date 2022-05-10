@@ -1,0 +1,17 @@
+.last-entries-container {
+
+    .l-e-date {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        h3 {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .l-e-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

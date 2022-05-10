@@ -1,0 +1,13 @@
+.footer-container {
+    text-align: center;
+    margin-top: 50px;
+
+    .btn {
+        background-color: var(--color-primary);
+
+        &:hover {
+            color: var(--color-bg-variant);
+            background-color: #fff;
+        }
+    }
+}

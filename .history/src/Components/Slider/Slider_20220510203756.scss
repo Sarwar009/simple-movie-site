@@ -1,0 +1,15 @@
+.swiper-slider-div {
+    .slider-item {
+        padding: 5px;
+        cursor: pointer;
+        transition: var(-o-transition);
+        &:hover ;
+        -webkit-transition: var(-o-transition);
+        -moz-transition: var(-o-transition);
+        -ms-transition: var(-o-transition);
+        -o-transition: var(-o-transition);
+{
+            opacity: 0.7;
+        }
+    }
+}

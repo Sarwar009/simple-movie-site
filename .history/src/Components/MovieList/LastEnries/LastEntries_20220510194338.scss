@@ -1,0 +1,16 @@
+.last-entries-container {
+
+    .l-e-date {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        h3 {
+            
+        }
+    }
+
+    .l-e-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

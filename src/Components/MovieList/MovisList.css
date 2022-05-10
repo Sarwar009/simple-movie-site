@@ -2,54 +2,17 @@
   border-right: 1px solid var(--color-bg-variant);
 }
 
-.letestMoviesWrapper {
+.movie-listing-container .letestMoviesWrapper {
   margin-top: 20px;
   margin-bottom: 30px;
   border-bottom: 1px solid var(--color-bg-variant);
 }
 
-.letestMoviesWrapper .see-more {
-  width: 100%;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.letestMoviesWrapper .see-more .see-more.btn {
-  margin-right: 30px;
-}
-
-.letestMoviesWrapper .see-more .btn {
-  background-color: var(--color-primary);
-  margin: 5px;
-}
-
-.letestMoviesWrapper .see-more .btn:hover {
-  color: var(--color-bg);
-  background-color: white;
-}
-
-.letestMoviesWrapper h3 {
-  color: var(--color-primary);
-  font-size: 20px;
-  margin: 13px;
-  margin-left: 30px;
-}
-
-.letestMoviesWrapper h3 .span {
-  border-left: 4px solid skyblue;
-  padding-right: 10px;
-}
-
-.letestMoviesWrapper .movies-name-release {
+.movie-listing-container .letestMoviesWrapper .movies-name-release {
   width: 100%;
 }
 
-.letestMoviesWrapper h4 {
+.movie-listing-container .letestMoviesWrapper h4 {
   width: 180px;
   color: #fff;
   font-weight: 500;
@@ -60,23 +23,65 @@
   overflow: hidden;
 }
 
-.letest-movies {
+.movie-listing-container .letest-movies {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.letest-movies .movies-container {
-  padding: 15px;
+.movie-listing-container .letest-movies .movies-container {
+  margin: 15px;
   cursor: pointer;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
-.letest-movies .movies-container img {
+.movie-listing-container .letest-movies .movies-container:hover {
+  opacity: 0.7;
+}
+
+.movie-listing-container .letest-movies .movies-container img {
   width: 100%;
 }
 
-.movies-img {
+.movie-listing-container .movies-img {
   width: 180px;
+}
+
+.movie-listing-container .see-more {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.movie-listing-container .see-more .see-more.btn {
+  margin-right: 30px;
+}
+
+.movie-listing-container .see-more .btn {
+  background-color: var(--color-primary);
+  margin: 5px;
+}
+
+.movie-listing-container .see-more .btn:hover {
+  color: var(--color-bg);
+  background-color: white;
+}
+
+.movie-listing-container h3 {
+  color: var(--color-primary);
+  font-size: 20px;
+  margin: 13px;
+}
+
+.movie-listing-container h3 .span {
+  border-left: 4px solid skyblue;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=MovisList.css.map */

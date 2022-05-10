@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.footer-container {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  line-height: 30px;
+}
+
+.footer-container .btn {
+  background-color: var(--color-primary);
+}
+
+.footer-container .btn:hover {
+  color: var(--color-bg-variant);
+  background-color: #fff;
+}
+
+.footer-container .copy-right {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,77 @@
+.movie-listing-container {
+    border-right: 1px solid var(--color-bg-variant);
+
+
+.letestMoviesWrapper {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid var(--color-bg-variant);
+        
+
+        .movies-name-release {
+            width: 100%;
+        }
+
+        h4 {
+            width: 180px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+.letest-movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    .movies-container {
+        padding: 15px;
+        cursor: pointer;
+        
+    
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.movies-img {
+    width: 180px;
+}
+
+.see-more {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    .see-more.btn {
+        margin-right: 30px;
+    }
+
+    .btn {
+        background-color: var(--color-primary);
+        margin: 5px;
+        &:hover {
+            color: var(--color-bg);
+            background-color: white;
+        }
+    }
+}
+
+h3 {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin: 13px;
+    
+    .span {
+        border-left: 4px solid skyblue;
+        padding-right: 10px;
+    }
+}
+}

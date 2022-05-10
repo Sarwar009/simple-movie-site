@@ -1,0 +1,25 @@
+
+.slider-container{
+    .slider-item {
+            width: 700px;
+            height: 290px;
+            margin: 0 auto;
+        .slider-content {
+            text-align: start;
+            // padding-top: 0;
+        }
+    }
+    
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+            background-color: skyblue;
+        }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 49px;
+            left: 0;
+            width: 100%;
+        }
+}
+

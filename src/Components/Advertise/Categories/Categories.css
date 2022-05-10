@@ -16,6 +16,10 @@
   border-bottom: 1px solid var(--color-bg-variant);
 }
 
+.categories-container .categories-list:last-child {
+  border-bottom: none;
+}
+
 .categories-container .categories-title {
   width: 90%;
   color: burlywood;

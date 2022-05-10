@@ -1,0 +1,17 @@
+.last-entries-container {
+
+    .l-e-date {
+        display: flex;
+        flex-direction: column;
+        margin-right: 25px;
+        margin-top: 10px;
+
+        .date {
+            text-align: center;
+        }
+    }
+
+    .l-e-item {
+        display: flex;
+    }
+}

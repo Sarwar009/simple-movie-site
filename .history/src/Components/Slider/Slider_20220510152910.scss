@@ -1,0 +1,68 @@
+.slider-container {
+    background-color: red;
+}
+
+
+
+// .slider-container{
+//     width: 100%;
+//     margin: 10px;
+    
+//     .slider-item {
+//             width: 75%;
+//             height: 290px;
+//             margin: 0 auto;
+//         .slider-content {
+//             text-align: start;
+//             // padding-top: 0;
+//         }
+//     }
+//     .slider-img {
+//         height: 220px;
+//         margin: 0 auto;
+//     }
+
+//     .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+//             margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+//             background-color: skyblue;
+//         }
+
+//     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+//             bottom: 49px;
+//             left: 0;
+//             width: 100%;
+//         }
+// }
+
+
+
+/* <Swiper className='swiper-container'
+        modules={[Pagination, Autoplay]}
+        spaceBetween={40}
+        slidesPerView={1}
+        loop={true}
+        pagination={{ clickable: true }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }} 
+        >
+
+            {
+                sliderData.map(({img, alt, title}, index) => {
+                    return (
+                        <SwiperSlide className='slider' key={index}>
+                            <div className='slider-item'>
+                              <div className='slider-img'>
+                                <img src={img} alt={alt} />
+                              </div>
+                              <div className='slider-content'>
+                                <h4 className='title'>{title}</h4>
+                                <p>2010</p>
+                              </div>
+                          </div>
+                        </SwiperSlide>
+                    )
+                })
+            }
+      </Swiper> */}
