@@ -9,8 +9,25 @@
   opacity: 0.7;
 }
 
-.swiper-slider-div .swiper-button-prev,
-.swiper-slider-div .swiper-slider-next {
+.swiper-slider-div .swiper-button-next, .swiper-slider-div .swiper-button-prev {
   top: 40%;
+}
+
+/* ____________MEDIA QUERIES____________ */
+/* MEDIUM DEVICE MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-md);
+  }
+}
+
+/* SMALL DEVICE MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
 /*# sourceMappingURL=Slider.css.map */

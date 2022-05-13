@@ -2,17 +2,17 @@
   border-right: 1px solid var(--color-bg-variant);
 }
 
-.movie-listing-container .letestMoviesWrapper {
+.letestMoviesWrapper {
   margin-top: 20px;
   margin-bottom: 30px;
   border-bottom: 1px solid var(--color-bg-variant);
 }
 
-.movie-listing-container .letestMoviesWrapper .movies-name-release {
+.letestMoviesWrapper .movies-name-release {
   width: 100%;
 }
 
-.movie-listing-container .letestMoviesWrapper h4 {
+.letestMoviesWrapper h4 {
   width: 180px;
   color: #fff;
   font-weight: 500;
@@ -23,33 +23,33 @@
   overflow: hidden;
 }
 
-.movie-listing-container .letest-movies {
+.letest-movies {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.movie-listing-container .letest-movies .movies-container {
+.letest-movies .movies-container {
   margin: 15px;
   cursor: pointer;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.movie-listing-container .letest-movies .movies-container:hover {
+.letest-movies .movies-container:hover {
   opacity: 0.7;
 }
 
-.movie-listing-container .letest-movies .movies-container img {
+.letest-movies .movies-container img {
   width: 100%;
 }
 
-.movie-listing-container .movies-img {
+.movies-img {
   width: 180px;
 }
 
-.movie-listing-container .see-more {
+.see-more {
   width: 100%;
   text-align: center;
   display: -webkit-box;
@@ -60,27 +60,27 @@
           justify-content: space-between;
 }
 
-.movie-listing-container .see-more .see-more.btn {
+.see-more .see-more.btn {
   margin-right: 30px;
 }
 
-.movie-listing-container .see-more .btn {
+.see-more .btn {
   background-color: var(--color-primary);
   margin: 5px;
 }
 
-.movie-listing-container .see-more .btn:hover {
+.see-more .btn:hover {
   color: var(--color-bg);
   background-color: white;
 }
 
-.movie-listing-container h3 {
+h3 {
   color: var(--color-primary);
   font-size: 20px;
   margin: 13px;
 }
 
-.movie-listing-container h3 .span {
+h3 .span {
   border-left: 4px solid skyblue;
   padding-right: 10px;
 }
